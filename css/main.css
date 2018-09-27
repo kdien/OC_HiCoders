@@ -71,8 +71,17 @@ footer {
     background-color: black;
     grid-column: 1/13;
     grid-row: 4/5;
-    text-align: right;
-    color: aliceblue;
+
 }
 
+footer p {
+    padding-right: 1em; 
+    text-align: right;
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 0.9em;
+}
 
+footer p em {
+    font-size: 1.1em;
+}
