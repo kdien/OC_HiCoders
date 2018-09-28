@@ -50,11 +50,17 @@ nav ul li {
     flex-basis: 20%;
 }
 
+
 nav ul li a {
     display: block;
     padding: .25em 0;
     text-decoration: none;
     color: white;
+}
+
+nav ul li a.currentpage {
+    color: rgb(211, 195, 49);
+    background: rgb(40, 40, 40);
 }
 
 main {
