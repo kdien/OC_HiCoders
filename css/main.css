@@ -26,6 +26,10 @@ header {
     justify-self: center;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+}
+
 /* typing animation */
 @keyframes typing {
     from {
@@ -151,10 +155,10 @@ footer p {
         font-size: 95%;
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 465px) {
     header h1 {
         letter-spacing: 5px;
-        font-size: 185%;
+        font-size: 195%;
     }
 
     main {
