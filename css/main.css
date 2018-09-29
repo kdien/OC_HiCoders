@@ -123,6 +123,11 @@ main h1 {
     padding: 1rem;
 }
 
+main p {
+    padding: .5rem 1rem;
+    line-height: 1.5;
+}
+
 footer {
     background-color: rgb(20, 20, 20);
     grid-column: 1/13;
