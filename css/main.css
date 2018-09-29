@@ -119,7 +119,7 @@ main {
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     grid-column: 1/13;
     grid-row: 4/5;
     padding: .25em 0;
