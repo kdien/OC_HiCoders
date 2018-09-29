@@ -152,6 +152,10 @@ footer p {
         font-size: 185%;
     }
 
+    main {
+        font-size: 90%;
+    }
+
     #nav_menu {
         display: none;
     }

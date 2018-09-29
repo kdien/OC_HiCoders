@@ -11,7 +11,7 @@ table {
 
 table th, table td {
     border: 1px dotted aliceblue;
-    width: 24%;
+    /* width: 5%; */
     padding: .6em;
 }
 
@@ -27,4 +27,22 @@ table a {
 
 table a:hover, table a:focus {
     color: rgb(211, 195, 49);
+}
+
+@media (max-width: 450px) {
+    table {
+        margin-left: .25rem;
+        margin-right: .25rem;
+    }
+}
+
+@media (max-width: 400px) {
+    table {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    main {
+        font-size: 80%;
+    }
 }
