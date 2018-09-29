@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 * {
     margin: 0;
     padding: 0;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
     background: url('../img/codewall.jpg') no-repeat center center fixed;
-    background-size: 100%;
+    background-size: cover;
     height: 100%;
 }
 
@@ -17,7 +15,6 @@ body {
     display: grid;
     grid-template-rows: auto auto 1fr auto;
     grid-template-columns: repeat(12, 1fr);
-    text-align: center;
     min-height: 100%;
 }
 
@@ -25,12 +22,39 @@ header {
     grid-column: 1/13;
     grid-row: 1/2;
     color: rgb(211, 195, 49);
+    padding: .75rem 0;
+}
+
+/* typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 11em;
+    }
+}
+@keyframes blink_cursor {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgb(211, 195, 49);
+    }
 }
 
 header h1 {
-    padding: .5rem 0;
     font-size: 300%;
     letter-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 11em;
+    max-width: 100%;
+    text-align: center;
+    border-right: .1em solid rgb(211, 195, 49);
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 2.5s steps(40, end), blink_cursor .75s step-end infinite;
 }
 
 nav {
@@ -90,4 +114,28 @@ footer p {
 
 footer p em {
     font-size: 1.1em;
+}
+
+@media (max-width: 535px) {
+    header h1 {
+        /* animation: none; */
+        /* border: none; */
+        font-size: 250%;
+    }
+}
+@media (max-width: 430px) {
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 10em;
+        }
+    }
+    
+    header h1 {
+        width: 10em;
+        letter-spacing: 5px;
+        font-size: 185%;
+    }
 }
