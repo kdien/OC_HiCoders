@@ -6,14 +6,23 @@
     <link rel="icon" href="../img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hi Coders! | About</title>
+    <link href="../css/slicknav.css" rel="stylesheet" type="text/css">
     <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
 </head>
 <body>
     <header>
         <h1>{ Hi Coders }</h1>
     </header>
 
-    <nav>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="../languages/overview.html">Languages</a></li>
