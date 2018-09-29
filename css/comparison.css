@@ -1,0 +1,30 @@
+main h1 {
+    text-align: center;
+}
+
+table {
+    border: 1px dotted aliceblue;
+    border-collapse: collapse;
+    width: 97.5%;
+    margin: 1rem;
+}
+
+table th, table td {
+    border: 1px dotted aliceblue;
+    width: 24%;
+    padding: .6em;
+}
+
+thead {
+    text-align: center;
+}
+
+table a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+table a:hover, table a:focus {
+    color: rgb(211, 195, 49);
+}

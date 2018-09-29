@@ -86,7 +86,7 @@ header h1 {
 
 #nav_menu ul li a.currentpage {
     color: rgb(211, 195, 49);
-    background: rgb(40, 40, 40);
+    /* background: rgb(40, 40, 40); */
 }
 
 #nav_menu ul li a:hover, #nav_menu ul li a:focus {
@@ -116,6 +116,11 @@ main {
     margin: 2em 0;
     padding: 1em;
     color: aliceblue;
+    text-align: left;
+}
+
+main h1 {
+    padding: 1rem;
 }
 
 footer {
