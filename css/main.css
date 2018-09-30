@@ -26,10 +26,6 @@ header {
     justify-self: center;
 }
 
-a:link, a:visited {
-    text-decoration: none;
-}
-
 /* typing animation */
 @keyframes typing {
     from {
@@ -123,6 +119,14 @@ main {
     text-align: left;
 }
 
+main img {
+    max-width: 100%;
+    width: 50%;
+    float: right;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
 main h1 {
     padding: 1rem;
 }
@@ -130,6 +134,14 @@ main h1 {
 main p {
     padding: .5rem 1rem;
     line-height: 1.5;
+}
+
+main a:link, main a:visited {
+    color: aliceblue;
+}
+
+main a:hover, main a:focus {
+    font-style: italic;
 }
 
 footer {
