@@ -15,6 +15,59 @@
 			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
     	});
     </script>
+    <style>
+        main {
+            display: grid;
+            grid-template: repeat(25, 1fr) / 1fr 1fr;
+            color: aliceblue;
+            text-align: left;
+            background: rgba(0, 0, 0, 0);
+            padding: 0em;
+        }
+        /* Khoa */
+        section#khoa {
+            grid-column: 1/3;
+            grid-row: 1/12;
+            background: rgb(40, 40, 40);
+            border-radius: 20px;
+            padding: 1em;
+            
+        }
+
+        /* Winter */
+        section#winter {
+            grid-column: 1/3;
+            grid-row: 13/26;
+            background: rgb(40, 40, 40);
+            border-radius: 20px;
+            padding: 1em;
+        }
+        
+        section#winter h1 {
+            color: rgb(156, 29, 156);
+        }
+
+        section#winter div.info {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        section#winter p {
+            flex-basis: 80%;
+        }
+        
+        section#winter a {
+            font-weight: bold;
+        }
+        
+        section#winter div#contactdisc {
+            text-align: center;
+        }
+        section#winter hr {
+            width: 25%;
+            margin: 1em auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -44,7 +97,23 @@
     </nav>
 
     <main>
-        
+        <section id="khoa">
+            test
+        </section>
+        <section id="winter">
+            <h1>Nathan Brennan (Winter Animosus)</h1>
+            <div class="info">
+                <p>My name, is Nathan Brennan. Not much goes on in my average day to day life. I wake up, I shower, I go to school, I go home, and then I go to my computer and then bed. Most people would say that is pretty bland. And Ill admit, some days, it is quite boring. Quite bland. To be truely honest, I just dont have the social skills to go out and talk to people. Dont have the motivation to even try. So, I instead get all my social interactions online, through various friends and games. Oh, And fridays I have dnd, so there is SOME progress in the social department.</p>
+                <img src="#" alt="Nathan">
+            </div>
+            <div class="info">
+                <p>Now, I Mentioned I do things online. So, let me start again. My name is Winter Animosus (Or Penny Harmless, depending on my mood) The moment I get home, is when my online interactions begin. Now, I only have limited space, so I suppose I should probably keep this short. So heres a few facts about me: First off, Im a furry. You know what it is, good for you. You hate it? thats your oppinion, dont cry to me about it. you dont know? I dont have room to explain it, just go <a href="https://furscience.com/whats-a-furry/">here.</a> This explains it fairly well I suppose. Im also pansexual, and have a boyfriend. Also, im running out of space... so... you want more, messege me on discord</p>
+                <img src="#" alt="Winter Animosus">
+            </div>
+            <div id="contactdisc">
+            <p><hr>Discord: Winter Animosus#4471 <hr> Steam: Penny Harmless the fennec<hr></p>
+            </div>
+        </section>
     </main>
     
     <footer>
