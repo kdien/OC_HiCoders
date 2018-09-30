@@ -11,7 +11,7 @@ table {
 
 table th, table td {
     border: 1px dotted aliceblue;
-    /* width: 5%; */
+    width: 24%;
     padding: .6em;
 }
 

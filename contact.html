@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../img/favicon.png">
+    <link rel="icon" href="img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hi Coders! | Contact Us</title>
     <link href="css/slicknav.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/contact.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
 	<script type="text/javascript">
@@ -42,9 +43,41 @@
             <li><a href="about.html">About Us</a></li>
         </ul>
     </nav>
+
     <main>
-        
+        <h1>Contact Information</h1>
+        <p>Get in touch with us for any other information, or just simply to talk tech!</p>
+        <form name="contact_form" id="contact_form" action="">
+            <p>
+                <label for="name">Full Name: </label>
+                <input type="text" name="name" id="name" autofocus>
+            </p>
+            <p>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+                <label for="phone">Phone: </label>
+                <input type="tel" name="phone" id="phone">
+            </p>
+            <p class="radio">
+                <label for="preferred_contact">Preferred Contact Method: </label>
+                <input type="radio" name="preferred_contact" id="preferred_email">
+                <label for="preferred_email">Email</label>
+                <input type="radio" name="preferred_contact" id="preferred_phone">
+                <label for="preferred_phone">Phone</label>
+            </p>
+            <p>
+                <label for="message">A quick message to us:</label>
+                <textarea name="message" id="message" rows="6"></textarea>
+            </p>
+            <p class="form_buttons">
+                <input type="submit" name="submit" id="submit" value="Submit">
+                <input type="reset" name="reset" id="reset" value="Clear">
+            </p>
+        </form>
     </main>
+
     <footer>
         <p><em>Created by Khoa Dien & Nathan Brennan</em></p>
     </footer>

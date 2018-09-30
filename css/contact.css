@@ -1,0 +1,34 @@
+form label {
+    padding-right: 1em;
+    float: left;
+    width: 15%;
+    vertical-align: top;
+}
+
+form p {
+    clear: both;
+}
+
+form input {
+    width: 30%;
+}
+
+form .radio label:nth-of-type(n + 2) {
+    float: none;
+    padding-right: 3em;
+}
+
+form .radio input {
+    width: auto;
+}
+
+form textarea {
+    width: 30%;
+    height: auto;
+}
+
+.form_buttons input {
+    width: 22%;
+    margin-right: 2em;
+    padding: .5em 0;
+}
