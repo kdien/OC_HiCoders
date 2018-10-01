@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: rgba(60, 60, 60, .9);
+    background-color: rgba(60, 60, 60, .925);
     display: grid;
     grid-template-rows: auto auto 1fr auto;
     grid-template-columns: repeat(12, 1fr);
@@ -86,12 +86,12 @@ header h1 {
 
 #nav_menu ul li a.currentpage {
     color: rgb(211, 195, 49);
-    /* background: rgb(40, 40, 40); */
+    background: rgb(35, 35, 35);
 }
 
 #nav_menu ul li a:hover, #nav_menu ul li a:focus {
     color: rgb(211, 195, 49);
-    background: rgb(40, 40, 40);
+    background: rgb(50, 50, 50);
 }
 
 #nav_menu ul ul {
@@ -110,8 +110,8 @@ header h1 {
 
 main {
     grid-column: 2/12;
-    grid-row: 3/4;
-    background: rgb(40, 40, 40);
+    grid-row-start: 3/4;
+    background: rgb(30, 30, 30);
     border-radius: 20px;
     margin: 2em 0;
     padding: 1em;

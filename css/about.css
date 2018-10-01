@@ -1,0 +1,47 @@
+main {
+    display: grid;
+    color: aliceblue;
+    text-align: left;
+    background: rgba(0, 0, 0, 0);
+    padding: 0em;
+    grid-template: auto / 1fr 1fr;
+    grid-gap: 1em;
+}
+
+main img {
+    float: none;
+}
+
+/* Khoa */
+section#khoa {
+    grid-column: 1/2;
+    background: rgb(40, 40, 40);
+    border-radius: 20px;
+    padding: 1em;
+    
+}
+
+/* Winter */
+section#winter {
+    grid-column: 2/3;
+    background: rgb(40, 40, 40);
+    border-radius: 20px;
+    padding: 1em;
+}
+
+
+section#winter h1 {
+    color: rgb(156, 29, 156);
+}
+
+section#winter a {
+    font-weight: bold;
+}
+
+section#winter div#contactdisc {
+    text-align: center;
+}
+section#winter hr {
+    width: 15em;
+    margin: 1em auto;
+}

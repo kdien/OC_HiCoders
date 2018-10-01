@@ -1,34 +1,114 @@
+main {
+    display: grid;
+    grid-template: auto / 55% 1fr;
+    grid-gap: 2%;
+}
+
+section#contact_info {
+    grid-column: 1/2;
+}
+
 form label {
     padding-right: 1em;
-    float: left;
-    width: 15%;
+    width: 100%;
     vertical-align: top;
 }
 
-form p {
-    clear: left;
-}
-
 form input {
-    width: 30%;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    padding: 0.5em;
 }
 
-form .radio label:nth-of-type(n + 2) {
-    float: none;
-    padding-right: 3em;
+form .check label {
+    padding-right: 2em;
 }
 
-form .radio input {
+form .check input {
     width: auto;
 }
 
 form textarea {
-    width: 30%;
+    width: 100%;
     height: auto;
+    border-radius: 4px;
+    border: none;
+    padding: 0.5em;
 }
 
-.form_buttons input {
-    width: 22%;
-    margin-right: 2em;
+p.submit_button {
+    text-align: center;
+}
+
+.submit_button input {
+    width: 30%;
     padding: .5em 0;
+    background: rgb(220, 220, 220);
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+}
+
+.submit_button input:hover {
+    background: rgb(160, 160, 160);
+    width: 31%;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.red {
+    color: rgb(192, 37, 37);
+}
+
+#contact_map {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 1em;
+}
+
+#contact_map iframe {
+    width: 100%;
+    height: 90%;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template: 1fr 1fr / auto;
+    }
+
+    section#contact_info {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    section#contact_map {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    form .check label {
+        /* padding-right: 0.5em; */
+        width: 100%;
+    }
+}
+
+@media (max-width:425px) {
+    form .check label {
+        padding-right: 0.5em;
+    }
+}
+
+@media (max-width: 370px) {
+    form p.check label {
+        padding-right: 2em;
+    }
+
+    form p.check label:first-child {
+        display: flex;
+        flex-direction: column;
+    }
 }

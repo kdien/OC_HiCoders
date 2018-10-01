@@ -45,37 +45,41 @@
     </nav>
 
     <main>
-        <h1>Contact Information</h1>
-        <p>Get in touch with us for any other information, or just simply to talk tech!</p>
-        <form name="contact_form" id="contact_form" action="">
-            <p>
-                <label for="name">Full Name: </label>
-                <input type="text" name="name" id="name" autofocus>
-            </p>
-            <p>
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email">
-            </p>
-            <p>
-                <label for="phone">Phone: </label>
-                <input type="tel" name="phone" id="phone">
-            </p>
-            <p class="radio">
-                <label for="preferred_contact">Preferred Contact Method: </label>
-                <input type="radio" name="preferred_contact" id="preferred_email" checked>
-                <label for="preferred_email">Email</label>
-                <input type="radio" name="preferred_contact" id="preferred_phone">
-                <label for="preferred_phone">Phone</label>
-            </p>
-            <p>
-                <label for="message">A quick message to us:</label>
-                <textarea name="message" id="message" rows="6"></textarea>
-            </p>
-            <p class="form_buttons">
-                <input type="submit" name="submit" id="submit" value="Submit">
-                <input type="reset" name="reset" id="reset" value="Clear">
-            </p>
-        </form>
+        <section id="contact_info">
+            <h1>Contact Information</h1>
+            <p>Get in touch with us for any other information, or just simply to talk tech!</p>
+            <form name="contact_form" id="contact_form" action="contact_thanks.html">
+                <p>
+                    <label for="name">Name <span class="red">*</span></label>
+                    <input type="text" name="name" id="name" placeholder="Enter your preferred name" required autofocus>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com">
+                </p>
+                <p>
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}">
+                </p>
+                <p class="check">
+                    <label>Contact Method: </label>
+                    <input type="checkbox" name="contact" id="email" value="Email">
+                    <label for="email">Email</label>
+                    <input type="checkbox" name="contact" id="phone" value="Phone">
+                    <label for="phone">Phone</label>
+                </p>
+                <p>
+                    <label for="message">A quick message to us <span class="red">*</span></label>
+                    <textarea name="message" id="message" rows="6" placeholder="Send us a few words and say hello..." required></textarea>
+                </p>
+                <p class="submit_button">
+                    <input type="submit" name="submit" id="submit" value="Submit">
+                </p>
+            </form>
+        </section>
+        <section id="contact_map">
+            <iframe src="https://maps.google.com/maps?q=Oulton%20College%204%20Flanders%20Ct%2C%20Moncton%2C%20NB%20E1C%200K6&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </section>
     </main>
 
     <footer>
