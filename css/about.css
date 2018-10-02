@@ -8,34 +8,50 @@ main {
     grid-gap: 1em;
 }
 
-main img {
-    float: none;
+section {
+    background: rgb(40, 40, 40);
+    border-radius: 20px;
+    padding: 1em;
+}
+
+section img {
+    width: 35%;
+    background: #ADAEA8;
+    margin: 1em;
+}
+
+section h1 {
+    font-size: 200%;
+}
+
+section h2 {
+    padding: 1rem;
+    font-size: 120%;
 }
 
 /* Khoa */
 section#khoa {
     grid-column: 1/2;
-    background: rgb(40, 40, 40);
-    border-radius: 20px;
-    padding: 1em;
     
 }
 
 /* Winter */
 section#winter {
     grid-column: 2/3;
-    background: rgb(40, 40, 40);
-    border-radius: 20px;
-    padding: 1em;
 }
 
 
 section#winter h1 {
-    color: rgb(156, 29, 156);
+    color: rgb(170, 178, 180);
+}
+
+section#winter h2 {
+    color: slategray;
 }
 
 section#winter a {
     font-weight: bold;
+    color: slategray;
 }
 
 section#winter div#contactdisc {
