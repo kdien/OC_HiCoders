@@ -26,6 +26,12 @@ header {
     justify-self: center;
 }
 
+header h1 {
+    font-size: 300%;
+    letter-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /* typing animation */
 @keyframes typing {
     from {
@@ -43,16 +49,13 @@ header {
         border-color: rgb(211, 195, 49);
     }
 }
-
-header h1 {
-    font-size: 300%;
-    letter-spacing: 10px;
-    font-family: 'Courier New', Courier, monospace;
+header#typing_animation h1 {
     border-right: .1em solid rgb(211, 195, 49);
     overflow: hidden;
     white-space: nowrap;
     animation: typing 2.5s steps(40, end), blink_cursor .75s step-end infinite;
 }
+/*  ending animation */
 
 #mobile_menu {
     display: none;
