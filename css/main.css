@@ -132,6 +132,14 @@ main img {
     padding: 1em 1em .493em 1em;
 }
 
+main img.language_logo {
+    float: left;
+    width: 64px;
+    height: 64px;
+    padding: 1em;
+    border-radius: 0;
+}
+
 main h1 {
     padding: 1rem;
 }
