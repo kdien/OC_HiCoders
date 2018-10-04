@@ -56,8 +56,9 @@ p.submit_button {
 
 .submit_button input:hover {
     background: rgb(160, 160, 160);
-    width: 31%;
     cursor: pointer;
+    /* width: 31%; */
+    transform: scale(1.02, 1.02);
 }
 
 ::placeholder {

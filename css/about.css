@@ -16,8 +16,6 @@ section {
 
 section img {
     width: 35%;
-    background: #ADAEA8;
-    margin: 1em;
 }
 
 section h1 {
@@ -32,7 +30,10 @@ section h2 {
 /* Khoa */
 section#khoa {
     grid-column: 1/2;
-    
+}
+
+section#khoa h1 {
+    color: rgb(68, 155, 226);
 }
 
 /* Winter */
@@ -40,6 +41,10 @@ section#winter {
     grid-column: 2/3;
 }
 
+section#winter img {
+    background: #ADAEA8;
+    margin: 1em;
+}
 
 section#winter h1 {
     color: rgb(170, 178, 180);
