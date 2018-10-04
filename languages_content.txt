@@ -1,0 +1,246 @@
+C#:
+	C# is one of the popular programming language introduced by Microsoft. C# programs run on top of the Common Language Runtime (CLR), which provides the run-time support to them. It is an Object Oriented Programming Language. The keys to an object-oriented language are encapsulation, inheritance, and polymorphism.
+
+Pros:
+	C# enables developers to build a variety of secure and robust applications that run on the .NET Framework. You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications etc. Visual Studio C# provides an advanced code editor, convenient user interface designers, integrated debugger, and many other tools to make it easier to develop applications based on the C# language and the .NET Framework.
+First, it integrates well with Windows. You don't need any special configurations to get a C# program to run in your Windows environment. Whether it's a web application, a Windows service, or a desktop app, C# programs are easily deployed on the network. As long as the target server or workstation supports .NET, your C# program deployment should be a smooth transition from development to production.
+
+Next, C# is easy to find additional developers whether it's for a contract or full-time basis. If your business grows and you need additional developers, C# is one of the common languages programmers learn. It also has very close syntax with Java, so you can usually find a developer who understands Java (for mobile programming) and C# (for backend services) at the same time.
+
+If you have a team of developers, Microsoft has made it easy for a team to work together on one project. Visual Studio has integrated tools for change control and code merges. Microsoft offers Team Foundation Server versions of its software and Enterprise options for large development teams.
+
+Finally, C# is a compiled language, which means that the code stored on a public-facing server is in binary form. If your server gets hacked, the hacker doesn't automatically have access to your source code. With other common languages such as PHP, the hacker gains access to source code, which could then give him access to database passwords. With C#, the hacker must decompile or "crack" your software before he can see the critical components.
+
+Cons:
+	In the previous section, compiling the code was mentioned as a "pro." It is an advantage, but compiling code also has some disadvantages. It's much more difficult to work with since your code must be compiled each time you make even a minor change. If you change one letter in your code, you must recompile the whole application and deploy it again. This often leads to added bugs if a minor change isn't thoroughly tested.
+
+Since C# is a part of the .NET framework, the server running the application must be Windows. In other words, any .NET application needs a Windows platform to execute. Many new companies work with Linux servers since it's a much cheaper environment. You need Windows hosting to run a .NET application.
+
+Microsoft stops supporting older .NET frameworks after a few operating systems upgrades. For instance, older Windows 2000 servers can only support .NET 2.0 applications. While having an old operating system installed seems like a mistake, many enterprise organizations keep older operating systems because of the many problems that an upgrade can bring to the platform. Major upgrades to server architecture must be tested and approved before deployment, which adds time and costs to development.
+
+If your organization uses Windows workstations and servers, .NET is the easiest to integrate. C# can be used for automation such as Windows Services or web applications. It's well suited for Windows environments, and it's beneficial for scalability during business growth. The pros for C# far outweigh the cons, which can be managed with the right network setup.
+
+Use:
+	The migration to the .NET platform offers many development options. If you are moving to .NET and you already know about C++ or Java, C# is a logical choice for you. C# does offer many advantages over any COM-based language. Here, we explain why C# is an important language and why you should consider moving to C#.
+
+Modernized language
+Type-safety
+Object-oriented
+Simplified syntax and simple async patterns
+XML comments
+Cross-language capabilities
+Build for mobile, web, cloud, desktop, gaming, and IoT
+Language integrated queries
+Automatic memory management
+Familiar syntax for Java & C-style developers
+.NET supports multiple programming languages
+==========================================================================================================================================
+C++
+
+The origin of C++ dates back to 1979 when Bjarne Stroustrup, also an employee of Bell AT &T, started working on language C with classes. He borrowed desirable features from many other languages like Simula, Ada, ML, CLU and ALGOL 68. Thus, in addition to features of C language, C++ also included classes, strong type checking, default function argument and basic inheritance. Till 1983, it was called C with classes, and in 1983 it was named C++. During 1998, a joint ANSI-ISO committee released the specification for C++ language standards.
+
+In mid-2011, C++11, a new C++ standard was released. It was considerably influenced from the Boost library project and many of the new modules were sourced directly from the corresponding Boost libraries. It also added other new features including a comprehensive randomization library, regular expression support , a new C++ time library, a standard threading library, atomics support, auto keyword, improved support for unions and array-initialization lists, new templates and container classes. C++14, released in December 2014, included smaller improvements and bug fixes over C++11.
+
+Pros:
+
+C++ is a highly portable language and is often the language of choice for multi-device, multi-platform app development.
+C++ is an object-oriented programming language and includes classes, inheritance, polymorphism, data abstraction and encapsulation.
+C++ has a rich function library.
+C++ allows exception handling, and function overloading which are not possible in C.
+C++ is a powerful, efficient and fast language. It finds a wide range of applications – from GUI applications to 3D graphics for games to real-time mathematical simulations.
+
+Wide support: C++ is a very popular language, and as such, many compilers and libraries already exist that are compatible with it. As such, it is much easier to develop large projects with many dependencies than it would be with more esoteric languages that have less support. On top of that, it is popular enough that it is very likely that code has been written before for any application one can imagine, so it is easy to take other people's code and rework it to suit individual needs, rather than write it all from scratch. There are also many open source libraries for C++ that can be found online, allowing programmers to use prewritten libraries instead of writing their own code or reworking someone else's code. Finally, there's also a compiler for every major operating system, so things that are developed in C++ are incredibly portable.
+Powerful: Because C++ does not require a special runtime to be installed for it to run, any kind of program can be created, all the way down to low-level systems programming up to complicated GUIs.
+
+Speed: Because it is compiled, C++ gains a lot of speed. Non-compiled languages have to be interpreted at runtime, meaning every action is a 2-step process. Compiled languages are pre-interpreted so that every step in the executable is one machine instruction.
+Similarity to other languages: Many other languages like C, C#, and Java have very similar syntax to C++, making them easy to learn for those that already know C++.
+Small standard library: the standard library of C++ is small compared to other languages like Java, allowing the programmer to do more with less restrictions.
+
+Cons:
+
+Unsafe: the standard allows for many things that can cause unexpected behavior. This allows the programmer to do more, but also forces them to do more. It does no boundary checks on arrays, and allows for improper type conversion, making it very for someone who is inexperienced to corrupt memory. This is an issue that can be very hard to debug.
+
+Little memory management: C++ does very little memory management, forcing the programmer to do most of it themselves.
+Archaic object orientation: The object orientation system in C++ is unnecessarily basic compared to other languages. Other languages like Java have much better and more flexible systems.
+Lack of custom operators: many languages allow programmers to define their own operators. For instance, I could define that a <-> b would swap the data in a with the data in b. It is possible to redefine existing operators in C++, but making new ones is not possible. The functionality desired has to be done with functions, which can decrease code readability.
+Lack of algebraic data types: Simple types like tuples are not included, forcing programmers to make their own implementations or find a library if they want to use them.
+Functions are not first class types: First class types are types that can be returned from functions, can be passed to functions, and can be constructed at runtime [2]. Functions do not count as these types, meaning some programming features that would be available in other languages are not available in C++. Workarounds can be created by using pointers to functions, but this increases code complexity, making it harder to write and to read.
+
+Complicated: The syntax is complex and the standard library is small, making C++ difficult to learn for someone with little programming experience.
+Syntactically strict: There is not much flexibility to the syntax, so it can be difficult to write code in a readable way.
+Unstandardized higher-level features: Common program features such as GUIs, networking, and threading are dependent on operating system, forcing programmers to either make multiple versions of a program or include outside libraries that have already done so. The newest standard has added some standardization for threads, but it still has a long way to go compared to languages like Java.
+
+Use:
+
+1. Games:
+C++ overrides the complexities of 3D games, optimizes resource management and facilitates multiplayer with networking. The language is extremely fast, allows procedural programming for CPU intensive functions and provides greater control over hardware, because of which it has been widely used in development of gaming engines. For instance, the science fiction game Doom 3 is cited as an example of a game that used C++ well and the Unreal Engine, a suite of game development tools, is written in C++.
+
+2. Graphic User Interface (GUI) based applications:
+Many highly used applications, such as Image Ready, Adobe Premier, Photoshop and Illustrator, are scripted in C++.
+
+3. Web Browsers:
+With the introduction of specialized languages such as PHP and Java, the adoption of C++ is limited for scripting of websites and web applications. However, where speed and reliability are required, C++ is still preferred. For instance, a part of Google’s back-end is coded in C++, and the rendering engine of a few open source projects, such as web browser Mozilla Firefox and email client Mozilla Thunderbird, are also scripted in the programming language.
+
+4. Advance Computations and Graphics:
+C++ provides the means for building applications requiring real-time physical simulations, high-performance image processing, and mobile sensor applications. Maya 3D software, used for integrated 3D modeling, visual effects and animation, is coded in C++.
+
+5. Database Software:
+C++ and C have been used for scripting MySQL, one of the most popular database management software. The software forms the backbone of a variety of database-based enterprises, such as Google, Wikipedia, Yahoo and YouTube etc.
+
+6. Operating Systems:
+C++ forms an integral part of many of the prevalent operating systems including Apple’s OS X and various versions of Microsoft Windows, and the erstwhile Symbian mobile OS.
+
+7. Enterprise Software:
+C++ finds a purpose in banking and trading enterprise applications, such as those deployed by Bloomberg and Reuters. It is also used in development of advanced software, such as flight simulators and radar processing.
+
+8. Medical and Engineering Applications:
+Many advanced medical equipments, such as MRI machines, use C++ language for scripting their software. It is also part of engineering applications, such as high-end CAD/CAM systems.
+
+9. Compilers:
+A host of compilers including Apple C++, Bloodshed Dev-C++, Clang C++ and MINGW make use of C++ language.  C and its successor C++ are leveraged for diverse software and platform development requirements, from operating systems to graphic designing applications. Further, these languages have assisted in the development of new languages for special purposes like C#, Java, PHP, Verilog etc.
+==========================================================================================================================================
+HTML/CSS
+
+In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system. Berners-Lee specified HTML and wrote the browser and server software in late 1990.
+
+CSS is simply a grouping of text-based code that overrides an Internet browser's default formatting to the Web designer's preferred style and format. CSS works in tandem with HTML to control the appearance of multiple pages and websites so that Web designers and developers do not have to spend the time making individual pages all look the same — an impossible feat if a website contains several hundred pages.
+
+Pros:
+
+Easy to learn compared to other languages.
+Well-interpreted by browsers.
+HTML Parsers are forgiving. If an element fails to parse it doesn’t break the entire document. (Does not apply to XHTML)
+Light-weight. High signal to noise ratio compared to other forms of communication.
+Has a vast (and expanding) array of structural and aesthetic elements that can infer meaning and presentation.
+Free. No license fees. DRM Free.
+An Open Standard. Transparent.
+Widely used, hugely popular.
+Multiple languages supported.
+Can go anywhere a browser can go: Multiple platforms supported
+
+Aside from making the formatting and style of Web pages conform to a single format or style with just one piece of code, CSS has many other features enjoyed by designers, including the following:
+Speed of Design: CSS helps developers quickly create multiple pages in the same style and format.
+Consistency: CSS helps establish a consistent framework that Web designers can use across all the sites they build.
+Ease of Use: CSS is easy to learn, and there are many tutorials and forums online to help designers in a pinch.
+Multiple Browser Support: CSS works with Internet Explorer, Firefox, Chrome and more.
+
+Cons:
+
+Requires a browser to interpret it correctly.
+Open to author interpretation, therefore authors are the weakest link in the communication chain.
+Technical progress has been slow, limited by the Standards Bodies, Authors and the tardiest browser to update. (This is improving though!)
+The HTML Lexicon is set in American English. Requires extra interpretation by non-English authors.
+Being a Declarative Language, it has limited functional prowess compared to Functional Languages.
+
+While CSS has several benefits, some designers are quick to list the following cons:
+Speed: Downloading an HTML page will always take longer if CSS is embedded within it. However, with ever-increasing Internet speeds, this is less of a problem than you might imagine.
+Weirdness: While CSS is easy to use and understand, its syntax is very different from HTML and not terribly user-friendly. This forces developers to take time to learn two different types of code and then understand how they interact with each other.
+Complications: CSS can get messy and complicate the creation of websites with third-party software, such as Dreamweaver or Microsoft FrontPage.
+Though there are advantages of CSS that outweigh its shortcomings, designers and developers should know what they are getting themselves into before they attempt to learn or implement CSS in their Web pages. Knowing the code's pitfalls ahead of time can help designers curtail some unforeseen complications when they create their websites.
+
+Use:
+
+HTML, or Hypertext Markup Language, is used to create web pages. Site authors use HTML to format text as titles and headings, to arrange graphics on a webpage, to link to different pages within a website, and to link to different websites.
+
+Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications . With Cascading Style Sheets (CSS) and JavaScript , it forms a triad of cornerstone technologies for the World Wide Web .
+
+Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+
+HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create
+
+structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links , quotes and other items. HTML elements are delineated by tags , written using angle brackets . Tags such as < img /> and < input /> directly introduce content into the page. Other tags such as < p > surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+==========================================================================================================================================
+Java
+
+Java was originally developed by James Gosling at Sun Microsystems (which has since been acquired by Oracle Corporation) and released in 1995 as a core component of Sun Microsystems' Java platform.
+
+Pros:
+
+Though no longer the only officially supported language for Android development and, of course, far from the only choice for web programming, Java keeps pace with the alternatives. And since that’s not only thanks to its respectable age, let’s explore what advantages Java has to offer.
+
+? Object-oriented programming
+Java embraces object-oriented programming (OOP) – a coding concept in which you not only define the type of data and its structure, but also the set of functions applied to it. This way, your data structure becomes an object that can now be manipulated to create relationships between different objects.
+
+In contrast to another approach – procedural programming – where you have to follow a sequence of instructions using variables and functions, OOP allows you to group these variables and functions by context thus labeling them and referring to functions in the context of each specific object.
+
+Why is OOP an advantage?
+
+You can easily reuse objects in other programs
+It prevents errors by having objects hide some information that shouldn’t be easily accessed
+It makes programs more organized and pre-planned, even the bigger ones
+It offers simple maintenance and legacy code modernization
+High-level language with simple syntax and a mild learning curve
+Java is a high-level language, meaning that it closely resembles human language. In contrast to low-level languages that resemble machine code, high-level languages have to be converted using compilers or interpreters. This simplifies development, making a language easier to write, read, and maintain.
+
+Java derived its syntax (set of rules and structure used by programmers) from C++, which is why you will notice that it closely resembles the C code. However, it’s much simpler, allowing beginners to learn the technology faster and code more effectively to achieve specific results.
+
+Java may not be as beginner-friendly as Python, but any developer with a basic understanding of frameworks, packages, classes, and objects can grasp it pretty soon. It’s straightforward, strongly-typed, and has very strict expectations that soon help guide your thinking in the right direction. Besides, tons of free online tutorials and courses, won’t keep a novice helpless.
+
+Standard for enterprise computing
+Enterprise applications are Java’s greatest asset. It started back in the 90s when organizations began looking for robust programming tools that weren’t C. Java supports a plethora of libraries – building blocks of any enterprise system – that help developers create any function a company may need. The vast talent pool also helps – Java is the language used for introduction to computer programming in most schools and universities. Besides, its integration capabilities are impressive as most of the hosting providers support Java. Last but not least, Java is comparatively cheap to maintain since you don’t have to depend on a specific hardware infrastructure and can run your servers on any type of machine you may have.
+
+Shortage of security risks
+You may encounter the notion that Java is a secure language but that’s not entirely true. The language itself doesn’t protect you from vulnerabilities, but some of its features can save you from common security flaws. First, compared to C, Java doesn’t have pointers. A pointer is an object that stores the memory address of another value that can cause unauthorized access to memory. Second, it has a Security Manager, a security policy created for each application where you can specify access rules. This allows you to run Java applications in a “sandbox,” eliminating risks of harm.
+
+Platform-independency (Write Once Run Anywhere)
+Write Once Run Anywhere (WORA) is a popular programming catchphrase introduced by Sun Microsystems to describe Java’s cross-platform capabilities. It meant you could create a Java program on, let’s say, Windows, compile it to bytecode, and run the application on any other platform that supports a Java Virtual Machine (JVM). In this case, a JVM serves as an abstraction level between the code and the hardware.
+
+All major operating systems including Windows, Mac OS, and Linux support JVM. And unless you’re writing a program that relies mostly on platform-specific features and UI, you can share – maybe not all – but a big chunk of bytecode.
+
+Distributed language for easy remote collaboration
+Java was designed as a distributed language meaning that it has an integrated mechanism for sharing data and programs among multiple computers for improved performance and efficiency.
+
+Unlike other languages, where you have to use external APIs for distribution, Java offers this technology at its core. Java-specific methodology for distributed computing is called Remote Method Invocation (RMI). Using RMI allows you to bring all Java benefits, such as security, platform-independency and object-oriented programming, to distributed computing. Apart from that, it also supports Socket Programming and the distribution methodology of CORBA for sharing objects between programs written in different languages.
+
+Automatic memory management
+Java developers don’t have to worry about manually writing code for memory management tasks thanks to automatic memory management (AMM), also used in the Swift programming language, and garbage collection, an application that automatically handles allocation and deallocation of memory. What exactly does it mean?
+
+program’s effectiveness is directly linked to memory – and memory is limited. By using languages with manual management, developers risk forgetting to allocate memory resulting in increased memory footprint and lagging. A garbage collector can locate objects that are no longer referenced by your program and remove them. Despite the fact that it affects your program’s CPU, you can reduce or prevent it with smart optimization and tuning.
+
+Multithreading
+In programming, a thread is the smallest unit of processing. To maximize utilization of CPU time, Java allows you to run these threads simultaneously – in a process called multithreading.
+
+Threads share the same memory area so switching between them takes little time. They are also independent, so if one thread faces exception, it doesn’t affect other threads. This is especially useful for gaming and animation-heavy programs.
+
+Stability and massive community
+Java has survived to a respectable age thanks to the community, Oracle’s support, and the cornucopia of applications and languages that keep running on JVM. Besides, new versions of Java are regularly released with fresh, interesting features.
+
+Java’s developer community is also unmatched. About 45 percent of StackOverflow 2018 survey respondents use Java.  It has an extremely large ecosystem of well-tested libraries and frameworks for any use case. Java is most likely to be one of the first languages beginning developers encounter in their studies as there are 1000+ Java-related courses on Udemy and 300+ on Coursera.
+
+Cons:
+
+Paid the commercial license
+Oracle recently announced that they will start charging Java Standard Edition 8 for “business, commercial, or production” use starting in 2019. To get all new updates and bug fixes, you’ll need to pay by the number of users or per processor.
+
+Today, the current version of Java is free and available for redistribution for general purpose computing. To prepare for the change, each company has to evaluate how much of Java they use and seek an alternative technology if the price upgrade promises to be too painful.
+
+Poor performance
+Any high-level language has to deal with poor performance due to the compilation and abstraction level of a virtual machine. However, it’s not the only reason for Java’s often criticized speed. Take garbage collector, a useful feature that unfortunately can lead to significant performance problems if it takes more than 20 percent of CPU time. Bad caching configuration can also cause excessive memory and garbage collection usage. There are also thread deadlocks that happen when several threads are trying to access the same resource, and – every Java developer’s nightmare – Out-of-Memory errors. Although each of these problems can be prevented with skillful planning, they do add up and can cause different volumes of damage.
+
+Far from a native look and feel on the desktop
+To create a program’s graphical user interface (GUI), developers use different language-specific tools. Thus, for Android apps, there’s Android Studio that helps create apps that look and feel native. However, when it comes to desktop UI, Java noticeably lacks.
+
+There are a few GUI builders Java programmers can choose from: Swing, SWT, JavaFX, JSF being the most popular. Swing is old but reliable, cross-platform, and already integrated in various Java IDEs including Eclipse and NetBeans. But unless you’re using templates, you’ll notice interface inconsistencies. SWT uses native components but it’s not suitable for complicated UI. JavaFX is clean and modern-looking, but it’s not very mature. Overall, choosing a good fit for your GUI building on Java requires additional research.
+
+Verbose and complex code
+When the code is verbose, it means it uses too many words. While it may seem an advantage when you’re trying to understand the language, long, over-complicated sentences make code less readable and scannable. By trying to emulate English, many high-level languages tend to make too much noise. Java, created to tone down the unapproachable C++, forces programmers to type exactly what they mean which makes the language more transparent to non-experts but unfortunately – less compact.
+
+If we compare Java to its rival Python, we can see how clear Python code appears: It doesn’t require semicolons; uses “and,” “or,” and “not” as operators instead of Java’s “&&,” “||,” and “!”; and generally has fewer bells and whistles such as parentheses or curly braces.
+
+Use:
+
+Most organizations use Java in one way or another. A wide range of use cases makes these applications almost invisible, which is why the question “where to use Java” is often raised. To finish our overview, let’s see which domains can be covered by Java:
+
+Android apps. Despite Kotlin’s invasive growth, Java is still the de facto language for Android apps, which automatically turns a big pool of Java developers into Android programmers. While Android uses Android SDK instead of JDK, the code is still written in Java.
+
+Software products. Apart from already-mentioned Hadoop and Apache Storm, Java was used to create Eclipse, OpenOffice, Gmail, Atlassian, and more.
+
+Finance programs. Being one of the most demanded language skills in the financial industry, Java is used both on server- and client side to build reliable, fast, and simple websites. It’s also a preferred language for data simulations and modeling.
+
+Point of sale systems. Many businesses use Java to create PoS systems as they usually require platform-independency and a vast talent pool.
+
+Trading applications. Murex, a popular bank management program for front and back connectivity is written in Java.
+
+Big data programs. Hadoop is written in Java. Scala, Kafka, and Spark use JVM. Also, Java gives you access to tons of tried-and-tested libraries, debuggers, and monitoring tools.
+
+This post is a part of our “The Good and the Bad” series. For more information about the pros and cons of the most popular technologies, see the other articles from the series:

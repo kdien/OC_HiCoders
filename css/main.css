@@ -129,7 +129,7 @@ main img {
     width: 50%;
     float: right;
     border-radius: 30px;
-    padding: 1em;
+    padding: 1em 1em .493em 1em;
 }
 
 main h1 {
