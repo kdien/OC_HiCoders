@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -113,6 +111,10 @@ header#typing_animation h1 {
     width: 100%;
 }
 
+#nav_menu ul ul li a.currentpage {
+    background: inherit;
+}
+
 main {
     grid-column: 2/12;
     grid-row: 3/4;
@@ -132,7 +134,7 @@ main img {
     padding: 1em 1em .25em 1em;
 }
 
-main img.language_logo {
+img.language_logo {
     float: left;
     width: 64px;
     height: 64px;
@@ -140,13 +142,32 @@ main img.language_logo {
     border-radius: 0;
 }
 
+img.language_logo ~ p {
+    clear: both;
+}
+
+main {
+    line-height: 1.5;
+}
+
 main h1 {
     padding: 1rem;
 }
 
+main h2 {
+    padding: 1rem 1rem .5rem 1rem;
+}
+
 main p {
     padding: .5rem 1rem;
-    line-height: 1.5;
+}
+
+main ul {
+    padding: .5em 1em .0 2.5em;
+}
+
+main li {
+    padding-bottom: .75em;
 }
 
 main a:link, main a:visited {
@@ -215,5 +236,12 @@ footer p {
 
     main {
         font-size: 90%;
+    }
+}
+
+@media (max-width: 340px) {
+    img.language_logo {
+        width: 40px;
+        height: 40px;
     }
 }
