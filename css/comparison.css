@@ -2,21 +2,32 @@ main h1 {
     text-align: center;
 }
 
+main div {
+    overflow: auto;
+}
+
 table {
     border: 1px dotted aliceblue;
     border-collapse: collapse;
-    width: 97.5%;
-    margin: 1rem;
+    margin-top: 1rem;
 }
 
 table th, table td {
     border: 1px dotted aliceblue;
-    width: 24%;
+    width: 28%;
     padding: .6em;
+}
+
+table th:first-child, table td:first-child {
+    width: 15%;
 }
 
 thead {
     text-align: center;
+}
+
+tbody tr td:nth-child(n + 2) {
+    vertical-align: top;
 }
 
 table a {
@@ -29,20 +40,10 @@ table a:hover, table a:focus {
     color: rgb(211, 195, 49);
 }
 
-@media (max-width: 450px) {
-    table {
-        margin-left: .25rem;
-        margin-right: .25rem;
-    }
+table ul {
+    padding: 0 .1em 0 .5em;
 }
 
-@media (max-width: 400px) {
-    table {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-    main {
-        font-size: 80%;
-    }
+table li {
+    padding-bottom: .25em;
 }

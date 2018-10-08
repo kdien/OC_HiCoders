@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <h1>{ Hi Coders }</h1>
+        <a href="index.html"><h1>{ Hi Coders }</h1></a>
     </header>
 
     <nav id="mobile_menu"></nav>
@@ -47,66 +47,144 @@
 
     <main>
         <h1>Quick comparison between the languages</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>LANGUAGE</th>
-                    <th>PROS</th>
-                    <th>CONS</th>
-                    <th>USE CASES</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="languages/csharp.html">C#</a></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a href="languages/cplusplus.html">C++</a></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a href="languages/htmlcss.html">HTML/CSS</a></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a href="languages/java.html">Java</a></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a href="languages/javascript.html">JavaScript</a></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a href="languages/php.html">PHP</a></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a href="languages/python.html">Python</a></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a href="languages/sql.html">SQL</a></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>LANGUAGE</th>
+                        <th>PROS</th>
+                        <th>CONS</th>
+                        <th>USE CASES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="languages/csharp.html">C#</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="languages/cplusplus.html">C++</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="languages/htmlcss.html">HTML/CSS</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="languages/java.html">Java</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="languages/javascript.html">JavaScript</a></td>
+                        <td>
+                            <ul>
+                                <li>Easy to implement</li>
+                                <li>Client-side, reduces burden on servers, more responsive interactions</li>
+                                <li>Asynchronous</li>
+                                <li>Supports defensive scripting</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Can be exploited for malicious purposes on client-side</li>
+                                <li>Varying experience across different browsers, requires more testing and workarounds for consistency</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Interactive web pages through efficient DOM scripting</li>
+                                <li>Advanced client-side interactions using modern frameworks and libraries</li>
+                                <li>Server-side scripting using Node.js</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="languages/php.html">PHP</a></td>
+                        <td>
+                            <ul>
+                                <li>Simple and easy to learn</li>
+                                <li>Cross-platform support</li>
+                                <li>Extensive database support</li>
+                                <li>Still getting new features and improvements</li>
+                                <li>Very popular (WordPress, Facebook, etc.)</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>No IoT support</li>
+                                <li>Misperceived as old and insecure</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Server-side scripting</li>
+                                <li>Command-line scripting</li>
+                                <li>Desktop applications (with extension)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="languages/python.html">Python</a></td>
+                        <td>
+                            <ul>
+                                <li>Very easy to read and learn</li>
+                                <li>Cross-platform support</li>
+                                <li>Tons of libraries and support for different types of project</li>
+                                <li>Flexible and supports multiple programming paradigms</li>
+                                <li>Used by big name tech companies</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Slow performance compared to compiled languages</li>
+                                <li>No mobile development support</li>
+                                <li>Not great for game development</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Scripting</li>
+                                <li>Web development</li>
+                                <li>Desktop applications</li>
+                                <li>AI and Machine learning</li>
+                                <li>IoT</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="languages/sql.html">SQL</a></td>
+                        <td>
+                            <ul>
+                                <li>Efficient for accessing, manipulating, and managing databases</li>
+                                <li>Easy to read and learn</li>
+                                <li>Useful for business intelligence</li>
+                                <li>Very powerful once mastered</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Usefulness not easy to demonstrate</li>
+                                <li>Complex code harder to understand than other languages</li>
+                                <li>Fragmented with different versions</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Everything with relational databases</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
     
     <footer>
