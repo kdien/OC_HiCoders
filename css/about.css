@@ -78,6 +78,11 @@ section#winter a {
     color: slategray;
 }
 
+section#winter a#linkedin {
+    color: inherit;
+    text-decoration: underline;
+}
+
 section#winter div#contactdisc {
     text-align: center;
 }
