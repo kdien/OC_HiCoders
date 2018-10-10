@@ -29,6 +29,10 @@ section h2 {
     font-size: 120%;
 }
 
+section a:link, section a:visited {
+    text-decoration: underline;
+}
+
 /* Khoa */
 section#khoa {
     grid-row: 1/2;
@@ -75,12 +79,7 @@ section#winter p:last-of-type {
 
 section#winter a {
     font-weight: bold;
-    color: slategray;
-}
-
-section#winter a#linkedin {
-    color: inherit;
-    text-decoration: underline;
+    color: rgb(191, 199, 206);
 }
 
 section#winter div#contactdisc {
