@@ -198,7 +198,9 @@ footer p {
     main img {
         float: none;
         width: 89%;
-        justify-self: center;
+        margin: 0 auto 0;
+        display: block;
+
     }
 }
 
