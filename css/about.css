@@ -98,6 +98,12 @@ section#winter hr {
     }
 }
 
+@media only screen and (max-width: 535px) {
+    section#winter p:last-of-type {
+        text-align: left;
+    }
+}
+
 @media only screen and (max-width: 321px) {
     section#winter h1:last-of-type {
         text-align: left;
