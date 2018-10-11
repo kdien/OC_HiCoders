@@ -16,6 +16,7 @@ section {
 
 section img {
     width: 20%;
+    max-width: 440px;
     float: left;
     margin-right: .5em;
 }
@@ -84,20 +85,21 @@ section#winter a {
 
 section#winter div#contactdisc {
     text-align: center;
+    clear: both;
 }
 section#winter hr {
     width: 15em;
     margin: 1em auto;
 }
 /* Media query */
-@media only screen and (min-width: 2500px){
-    section#winter div#contactdisc {
-        float:right;
+@media only screen and (min-width: 2000px){
+    section img {
+        width: 15%;
     }
 }
+
 @media only screen and (max-width: 321px) {
-    section#winter h1:last-of-type
-    {
+    section#winter h1:last-of-type {
         text-align: left;
         padding-left: 2em;
     }
