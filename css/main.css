@@ -165,6 +165,7 @@ main p {
 
 main a:link, main a:visited {
     text-decoration: underline;
+    color: aliceblue;
 }
 
 main ul {
@@ -173,10 +174,6 @@ main ul {
 
 main li {
     padding-bottom: .75em;
-}
-
-main a:link, main a:visited {
-    color: aliceblue;
 }
 
 main a:hover /*, main a:focus*/ {
