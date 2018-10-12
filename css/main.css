@@ -163,6 +163,10 @@ main p {
     padding: .5rem 1rem;
 }
 
+main a:link, main a:visited {
+    text-decoration: underline;
+}
+
 main ul {
     padding: .5em 1em 0 2.5em;
 }
